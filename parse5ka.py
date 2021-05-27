@@ -82,6 +82,7 @@ if __name__ == "__main__":
     # parser = Parse5ka(url, save_dir)
     # parser.run()
 
+
     category_url = 'https://5ka.ru/api/v2/categories/'
     save_dir = get_dir_path("products_by_category")
     parser = Parse5kae(save_dir, category_url)
