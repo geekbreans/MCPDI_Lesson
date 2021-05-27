@@ -6,7 +6,6 @@ import requests
 
 class Parse5ka:
     headers = {"User-Agent": "Philipp Kirkorov2"}
-    # params = "store=None, records_per_page=12, page=1, categories=698, ordering=None, price_promo__gte=None, price_promo__lte=None, search=None"
 
     def __init__(self, start_url: str, save_dir: Path):
         self.start_url = start_url
